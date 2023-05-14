@@ -28,7 +28,7 @@ h6{
     position: relative;
     max-width: 1440px;
     margin: 0 auto;
-    padding: 0 150px;
+    padding: 60px 150px;
 }
 
 .header{
@@ -76,7 +76,7 @@ h6{
 }
 
 .title{
-    color: #fc0505;
+    color: #48ff76;
     font-size: 14px;
     line-height: 40px;
     font-weight: 400;
@@ -161,4 +161,35 @@ h6{
     right: 600px;
     border: 15px #fff solid;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+ 
+.titlt-two{
+    color: #48ff76;
+    font-size: 14px;
+    line-height: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.text_title-two{
+    text-align: center;
+    font-size: 36px;
+    line-height: 50px;
+    margin-top: 4px;
+    color: #48ff76;
+}
+
+.image-two{
+    max-width: 1440px;
+    padding: 50px;
+}
+
+.text__box-two{
+    margin-top: 61px;
+    max-width: 428px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 45px;
 }

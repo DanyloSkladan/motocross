@@ -1,11 +1,10 @@
 body {
-    background: url(../img/moto.jpg)
-    no-repeat center center fixed; 
+    background: url(../img/moto.jpg) no-repeat center center fixed;
     background-size: cover;
-    background-color:rgb(255, 255, 255)
+    background-color: rgb(255, 255, 255)
 }
 
-p{
+p {
     margin: 0;
     padding: 0;
 }
@@ -15,12 +14,12 @@ h2,
 h3,
 h4,
 h5,
-h6{
+h6 {
     margin: 0;
     font-size: inherit;
 }
 
-.main{
+.main {
     overflow-x: hidden;
 }
 
@@ -31,10 +30,10 @@ h6{
     padding: 60px 150px;
 }
 
-.header{
+.header {
     font-family: 'Playfair Display', sans-serif;
 }
-   
+
 .story {
     margin: 0;
     font-size: 189px;
@@ -45,15 +44,15 @@ h6{
     padding-top: 50px;
     letter-spacing: 36px;
 }
-   
+
 .top-bar {
     position: absolute;
     transform: translate(-50%);
     top: 0;
     left: 50%;
-    -webkit-box-shadow: 0px 40px 38px -8px rgba(156,158,158,0.74);
-    -moz-box-shadow: 0px 40px 38px -8px rgba(156,158,158,0.74);
-    box-shadow: 0px 40px 38px -8px rgba(156,158,158,0.74);
+    -webkit-box-shadow: 0px 40px 38px -8px rgba(156, 158, 158, 0.74);
+    -moz-box-shadow: 0px 40px 38px -8px rgba(156, 158, 158, 0.74);
+    box-shadow: 0px 40px 38px -8px rgba(156, 158, 158, 0.74);
     width: 300px;
     height: 130px;
     background-color: #218a83;
@@ -68,14 +67,15 @@ h6{
 }
 
 .nav-menu {
-    display: none; 
+    display: none;
 }
-.div-text{
+
+.div-text {
     max-width: 455px;
     padding-top: 28px;
 }
 
-.title{
+.title {
     color: #48ff76;
     font-size: 14px;
     line-height: 40px;
@@ -84,29 +84,29 @@ h6{
     letter-spacing: 3px;
 }
 
-.text__title{
+.text__title {
     font-size: 36px;
     line-height: 50px;
     margin-top: 4px;
     color: #48ff76;
 }
 
-.text__box{
+.text__box {
     margin-top: 61px;
     max-width: 428px;
     display: flex;
     flex-direction: column;
     row-gap: 45px;
-    
+
 }
 
-.text{
+.text {
     color: #fdffff;
     font-size: 24px;
     line-height: 40px;
 }
 
-.link{
+.link {
     display: block;
     background-color: #0a8a81;
     width: 167px;
@@ -121,38 +121,38 @@ h6{
     position: relative;
 }
 
-.link svg{
+.link svg {
     position: absolute;
     width: 27px;
     right: 30px;
     top: 9px;
 }
 
-.link svg path{
+.link svg path {
     fill: #fff !important;
 }
 
-.img-blog{
+.img-blog {
     padding: 15px;
     background-color: #fff;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.img-blog img{
+.img-blog img {
     width: 810px;
 }
 
-.row{
+.row {
     position: relative;
 }
 
-.right__img-box{
+.right__img-box {
     position: absolute;
     right: -289px;
     top: 64px;
 }
 
-.img__two{
+.img__two {
     width: 340px;
     height: 220px;
     background-color: #17837d;
@@ -162,8 +162,8 @@ h6{
     border: 15px #fff solid;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
- 
-.titlt-two{
+
+.titlt-two {
     color: #48ff76;
     font-size: 14px;
     line-height: 40px;
@@ -173,7 +173,7 @@ h6{
     text-align: center;
 }
 
-.text_title-two{
+.text_title-two {
     text-align: center;
     font-size: 36px;
     line-height: 50px;
@@ -181,12 +181,12 @@ h6{
     color: #48ff76;
 }
 
-.image-two{
+.image-two {
     max-width: 1440px;
     padding: 50px;
 }
 
-.text__box-two{
+.text__box-two {
     margin-top: 61px;
     max-width: 428px;
     display: flex;

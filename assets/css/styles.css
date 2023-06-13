@@ -151,6 +151,12 @@ h6 {
     right: -289px;
     top: 64px;
 }
+.container__text-center{
+    position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 60px 150px;
+}
 
 .img__two {
     width: 340px;
@@ -183,13 +189,18 @@ h6 {
 
 .image-two {
     max-width: 1440px;
-    padding: 50px;
+    margin: 50px;
+    border: 15px #fff solid;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .text__box-two {
-    margin-top: 61px;
+    margin: 0 auto;
+    width: 100%;
     max-width: 428px;
     display: flex;
     flex-direction: column;
     row-gap: 45px;
-}
+    text-align: center;
+    color: #fff;
+

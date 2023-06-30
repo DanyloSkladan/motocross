@@ -187,9 +187,13 @@ h6 {
     color: #48ff76;
 }
 
+.img__blog-two {
+    margin: 30px 0;
+}
+
 .image-two {
     max-width: 1440px;
-    margin: 50px;
+    /* margin: 50px; */
     border: 15px #fff solid;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -197,10 +201,141 @@ h6 {
 .text__box-two {
     margin: 0 auto;
     width: 100%;
-    max-width: 428px;
+    max-width: 720px;
     display: flex;
     flex-direction: column;
     row-gap: 45px;
     text-align: center;
     color: #fff;
+    font-size: 24px;
+    line-height: 40px;
+}
 
+/* new style */
+
+.header__menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 50px;
+    position: absolute;
+    top: 100px;
+    left: -200px;
+    opacity: 0;
+    width: 200px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: left .3s ease-in-out, opacity .3s ease-in-out;
+}
+
+.header__menu.header__menu-active {
+    opacity: 1;
+    left: 150px;
+}
+
+.header__menu-link {
+    color: #fdffff;
+    text-decoration: none;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 25px;
+}
+
+.header__btn {
+    width: 20px;
+    height: 15px;
+    position: relative;
+    cursor: pointer;
+}
+
+.header__btn-line {
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: red;
+}
+
+.header__btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 2px;
+    background-color: red;
+}
+
+.header__btn::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: red;
+}
+
+.video {
+    margin-top: 20px;
+    width: 100%;
+    height: 700px;
+    background-image: url(../img/133589-motokross-fristajl_motokross-ekstremalnyj_vid_sporta-motocikl-motocikletnye_shlemy-3840x2160.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-fill {
+    width: 78px;
+    height: 79px;
+}
+
+.form {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form__container {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fdffff;
+    font-size: 25px;
+}
+
+.form__title {
+    margin-bottom: 30px;
+}
+
+.form__inputs {
+    display: flex;
+    column-gap: 30px;
+    margin-bottom: 30px;
+}
+
+.form__btn {
+    display: block;
+    background-color: #0a8a81;
+    padding: 10px 50px;
+    color: #ffff;
+    text-decoration: none;
+    border-radius: 46px;
+    text-transform: uppercase;
+}
+
+/* new style */
